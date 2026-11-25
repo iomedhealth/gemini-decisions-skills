@@ -1,0 +1,22 @@
+{
+  "name": "gemini-decisions-skills",
+  "interface": {
+    "displayName": "Gemini Decisions API Skills"
+  },
+  "plugins": [
+    {
+      "name": "gemini-decisions",
+      "version": "1.0.0",
+      "description": "Decision model craft for the Gemini Decisions API (gemini-decision-1): calibrated yes/no, choice, and score decisions over text, images, audio, video, and PDFs.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

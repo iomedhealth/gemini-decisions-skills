@@ -1,12 +1,13 @@
 {
-  "name": "typesafe",
-  "version": "0.6.2",
-  "description": "Agent skills for building with the TypeSafe System One API.",
+  "name": "gemini-decisions",
+  "version": "1.0.0",
+  "description": "Agent skills for building with the Gemini Decisions API (gemini-decision-1).",
   "author": {
-    "name": "TypeSafe AI",
-    "url": "https://typesafe.ai"
+    "name": "IOMED",
+    "url": "https://github.com/iomedhealth"
   },
-  "homepage": "https://typesafe.ai",
-  "repository": "https://github.com/typesafe-ai/skills",
+  "skills": "./skills",
+  "homepage": "https://aistudio.google.com/docs/decisions-api",
+  "repository": "https://github.com/iomedhealth/gemini-decisions-skills",
   "license": "MIT"
 }

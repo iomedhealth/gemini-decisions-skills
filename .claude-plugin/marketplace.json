@@ -1,14 +1,19 @@
 {
-  "name": "typesafe-ai",
-  "description": "Agent skills for building with the TypeSafe System One API.",
+  "name": "gemini-decisions-skills",
+  "description": "Agent skills for building with the Gemini Decisions API (gemini-decision-1).",
   "owner": {
-    "name": "TypeSafe AI",
-    "url": "https://typesafe.ai"
+    "name": "IOMED",
+    "url": "https://github.com/iomedhealth"
+  },
+  "metadata": {
+    "description": "Agent skills for building with the Gemini Decisions API (gemini-decision-1): calibrated yes/no, choice, and score decisions over multimodal inputs.",
+    "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "typesafe",
-      "description": "Full context on the TypeSafe API: question types, architectural patterns, and best practices",
+      "name": "gemini-decisions",
+      "description": "Decision model craft for the Gemini Decisions API: question types, multimodal input design, architectural patterns, calibration, and live API probing.",
+      "version": "1.0.0",
       "source": "./"
     }
   ]

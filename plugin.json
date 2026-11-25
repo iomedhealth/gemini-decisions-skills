@@ -1,0 +1,23 @@
+{
+  "name": "gemini-decisions",
+  "version": "1.0.0",
+  "description": "Agent skills for building with the Gemini Decisions API (gemini-decision-1): calibrated yes/no (noul), choice, and score decisions with zero output tokens.",
+  "author": {
+    "name": "IOMED",
+    "url": "https://github.com/iomedhealth"
+  },
+  "skills": "./skills",
+  "homepage": "https://aistudio.google.com/docs/decisions-api",
+  "repository": "https://github.com/iomedhealth/gemini-decisions-skills",
+  "license": "MIT",
+  "keywords": [
+    "gemini",
+    "gemini-api",
+    "gemini-decisions",
+    "gemini-decision-1",
+    "google-genai",
+    "system-one",
+    "skills",
+    "ai"
+  ]
+}
